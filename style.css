@@ -1,0 +1,148 @@
+body {
+    padding: 0;
+    margin: 0;
+    height: 100%;
+    width: 100%;
+}
+
+.contianer {
+    margin: 0 auto;
+    justify-content: center;
+    width: 781px;
+    align-items: center;
+}
+
+nav {
+    position: relative;
+    width: 680px;
+    height: 300px;
+}
+
+.logo {
+    position: relative;
+    width: 680px;
+    height: 390px;
+    background-color: #A8CE79;
+}
+
+.logo img {
+    position: relative;
+    width: 680px;
+    height: 300px;
+}
+
+.location {
+    position: relative;
+    top: -120px;
+    left: 20px;
+}
+
+.location a {
+    color: inherit;
+}
+
+.phone {
+    position: relative;
+    top: -110px;
+    left: 20px;
+}
+
+.nav-button1 {
+    position: relative;
+    top: -90px;
+    padding: 10px;
+    border: 1px solid black;
+    height: 25px;
+    width: 70px;
+    border-radius: 50%;
+    left: 10px;
+}
+
+.nav-button1 a {
+    position: relative;
+    top: 2px;
+    left: 6px;
+    text-decoration: none;
+    color: inherit;
+}
+
+.nav-button2 {
+    position: relative;
+    top: -137px;
+    padding: 10px;
+    border: 1px solid black;
+    height: 25px;
+    width: 70px;
+    border-radius: 50%;
+    left: 120px;
+}
+
+.nav-button2 a {
+    position: relative;
+    top: 2px;
+    text-decoration: none;
+    color: inherit;
+}
+
+.menu {
+    position: relative;
+    top: 90px;
+}
+
+.menuh11 {
+    font-family: 'Call Sans', sans-serif;
+    position: relative;
+    left: 260px;
+}
+
+.manti {
+    position: relative;
+    left: 70px;
+    padding: 20px;
+    width: 475px;
+    border: 1px solid black;
+    border-radius: 10%;
+
+}
+
+.manti h2 {
+    font-family: 'Call Sans', sans-serif;
+}
+
+.manti img {
+    border-radius: 10%;
+}
+
+.barak {
+    position: relative;
+    left: 70px;
+    padding: 20px;
+    width: 475px;
+    border: 1px solid black;
+    border-radius: 10%;
+    top: 30px;
+}
+
+.barak h2 {
+    font-family: 'Call Sans', sans-serif;
+}
+
+.barak img {
+    border-radius: 10%;
+}
+
+.shorva {
+    position: relative;
+    left: 70px;
+    padding: 20px;
+    width: 475px;
+    border: 1px solid black;
+    border-radius: 10%;
+    top: 60px;
+}
+
+.shorva img {
+    position: relative;
+    width: 475px;
+    border-radius: 10%;
+}
