@@ -5,10 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Umumiy</title>
     <link rel="stylesheet" href="./style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Cal+Sans&family=DM+Sans:wght@100..1000&family=Poppins:wght@100..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100..900&display=swap" rel="stylesheet">
 </head>
 <body>
     <div class="container">
@@ -18,62 +18,120 @@
             </div>
             <div class="location">
                 <a href="https://maps.app.goo.gl/n7nDHGaQtTkDbWhv5">
-                <i class="fa-solid fa-location-dot"></i> Abdulg'ozi Bahadirhona 111A
+                    <i class="fa-solid fa-location-dot"></i> Abdulg'ozi Bahadirhona 111A
                 </a>
             </div>
             <div class="phone">
-                <i class="fa-solid fa-phone"></i> +998000000000                
-            </div>
-            <div class="nav-buttons">
-                <a href="#ovqatlar" class="nav-button">Ovqatlar</a>
-                <a href="#ichimliklar" class="nav-button">Ichimliklar</a>
+                <i class="fa-solid fa-phone"></i> +998000000000
             </div>
         </nav>
-        <div class="menu">
-            <h1 class="menuh11">Ovqatlar</h1>
-            <div class="food-items">
-                <div class="manti">
-                    <img src="./images/OIP.jpg" alt="">
-                    <h2>Manti</h2>
-                    <h2>Narhi: 00000</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                </div>
-                <div class="barak">
-                    <img src="./images/barak.jpg" alt="">
-                    <h2>Barak</h2>
-                    <h2>Narhi: 00000</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                </div>
-                <div class="shorva">
-                    <img src="./images/Sorva.jpg" alt="">
-                    <h2>Asmo Shorva</h2>
-                    <h2>Narhi: 00000</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                </div>
-            </div>
-        </div>
 
-        <h1 class="menuh12">Ichimliklar</h1>
-        <div class="drinks-items">
-            <div class="mahito">
-                <img src="./images/OIP (1).jpg" alt="">
-                <h2>Mahito</h2>
-                <h2>Narhi: 00000</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        <div class="menu">
+            <div class="button-row">
+                <button id="food-button">Ovqatlar</button>
+                <button id="drink-button">Ichimliklar</button>
             </div>
-            <div class="cofe">
-                <img src="./images/OIP (2).jpg" alt="">
-                <h2>Coffe</h2>
-                <h2>Narhi: 00000</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-            </div>
-            <div class="choy">
-                <img src="./images/OIP (3).jpg" alt="">
-                <h2>Choy</h2>
-                <h2>Narhi: 00000</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <div id="food-container">
+                <div id="food-menu" class="hide">
+                    <div class="menu-grid">
+                        <div class="manti">
+                            <img src="./images/OIP.jpg" alt="">
+                            <h2>Manti</h2>
+                            <h2>Narxi: 35.000</h2>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        </div>
+                        <div class="barak">
+                            <img src="./images/barak.jpg" alt="">
+                            <h2>Barak Shorva</h2>
+                            <h2>Narxi: 25.000</h2>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        </div>
+                        <div class="shorva">
+                            <img src="./images/Sorva.jpg" alt="">
+                            <h2>Asmo Shorva</h2>
+                            <h2>Narxi: 22.000</h2>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        </div>
+                        <div class="qattiqa">
+                            <img src="./images/пелмены с куфиром.jpg" alt="">
+                            <h2>Qattiqa Barak</h2>
+                            <h2>Narxi: 28.000</h2>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        </div>
+                        <div class="gumma">
+                            <img src="./images/maxresdefault.jpg" alt="">
+                            <h2>Gumma</h2>
+                            <h2>Narxi: 12.000</h2>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        </div>
+                        <div class="kapshirma">
+                            <img src="./images/6f68a0_wmark.jpg" alt="">
+                            <h2>Kapshirma</h2>
+                            <h2>Narxi: 10.000</h2>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        </div>
+                        <div class="chorak">
+                            <img src="./images/хлеб.jpg" alt="">
+                            <h2>Chorak Non</h2>
+                            <h2>Narxi: 6.000</h2>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        </div>
+                        <div class="buhanka">
+                            <img src="./images/буханка.jpg" alt="">
+                            <h2>Bo`lka Non</h2>
+                            <h2>Narxi: 5.000</h2>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        </div>
+                    </div>
+                </div>
+                <div id="drink-container">
+                    <div id="drink-menu" class="hide">
+                        <div class="menu-grid">
+                            <div class="mahito">
+                                <img src="./images/OIP (1).jpg" alt="">
+                                <h2>Mahito</h2>
+                                <h2>Narxi: 12.000</h2>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                            </div>
+                            <div class="cofe">
+                                <img src="./images/OIP (2).jpg" alt="">
+                                <h2>Coffe</h2>
+                                <h2>Narxi: 10.000</h2>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                            </div>
+                            <div class="choy">
+                                <img src="./images/OIP (3).jpg" alt="">
+                                <h2>Choy</h2>
+                                <h2>Narxi: 5.000</h2>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
+
+    <script>
+        const foodButton = document.getElementById('food-button');
+        const drinkButton = document.getElementById('drink-button');
+        const foodMenu = document.getElementById('food-menu');
+        const drinkMenu = document.getElementById('drink-menu');
+
+        function toggleMenu(menuToShow, otherMenu) {
+            if (menuToShow.classList.contains('show')) {
+                menuToShow.classList.remove('show');
+                menuToShow.classList.add('hide');
+            } else {
+                otherMenu.classList.remove('show');
+                otherMenu.classList.add('hide');
+                menuToShow.classList.remove('hide');
+                menuToShow.classList.add('show');
+            }
+        }
+
+        foodButton.addEventListener('click', () => toggleMenu(foodMenu, drinkMenu));
+        drinkButton.addEventListener('click', () => toggleMenu(drinkMenu, foodMenu));
+    </script>
 </body>
 </html>
