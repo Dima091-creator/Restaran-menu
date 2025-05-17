@@ -9,6 +9,10 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100..900&display=swap" rel="stylesheet">
+    <style>
+        .hide { display: none; }
+        .show { display: block; }
+    </style>
 </head>
 <body>
     <div class="container">
@@ -30,6 +34,9 @@
             <div class="button-row">
                 <button id="food-button">Ovqatlar</button>
                 <button id="drink-button">Ichimliklar</button>
+                <button id="salad-button">Salatlar</button>
+                <button id="extra-button">Qo‘shimchalar</button>
+                <button id="dessert-button">Pishiriqlar</button>
             </div>
             <div id="food-container">
                 <div id="food-menu" class="hide">
@@ -95,8 +102,26 @@
                             </div>
                             <div class="cofe">
                                 <img src="./images/OIP (2).jpg" alt="">
-                                <h2>Coffe</h2>
+                                <h2>Coffee</h2>
                                 <h2>Narxi: 10.000</h2>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                            </div>
+                            <div class="gaff">
+                                <img src="./images/gaff.jpg" alt="">
+                                <h2>Coffee Gaff</h2>
+                                <h2>Narxi: 20.000</h2>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                            </div>
+                            <div class="americano">
+                                <img src="./images/americano.jpg" alt="">
+                                <h2>Coffee Americano</h2>
+                                <h2>Narxi: 15.000</h2>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                            </div>
+                            <div class="copuchino">
+                                <img src="./images/copuchino.jpg" alt="">
+                                <h2>Coffee Copuchino</h2>
+                                <h2>Narxi: 20.000</h2>
                                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
                             </div>
                             <div class="choy">
@@ -105,33 +130,188 @@
                                 <h2>Narxi: 5.000</h2>
                                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
                             </div>
+
+                            <div class="limonchoy">
+                                <img src="./images/limonchoy.jpg" alt="">
+                                <h2>Limon Choy</h2>
+                                <h2>Narxi: 14.000</h2>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                            </div>
+                        
+                            <div class="mevalichoy">
+                                <img src="./images/mevalichoy.jpg" alt="">
+                                <h2>Mevali Choy</h2>
+                                <h2>Narxi: 20.000</h2>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                            </div>
+                        
+                            <div class="">
+                                <img src="./images/qorachoy.jpg" alt="">
+                                <h2>Qora Choy</h2>
+                                <h2>Narxi: 6.000</h2>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                            </div>
+
+                            <div class="cola">
+                                <img src="./images/coke-bottle-bins.jpg" alt="">
+                                <h2>Coca-Cola 0,5 1L 1,5L 2L</h2>
+                                <h2>Narxi: 8.000</h2>
+                                <h2>Narxi: 17.000</h2>
+                                <h2>Narxi: 20.000</h2>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                            </div>
+                        
+                            <div class="fanta">
+                                <img src="./images/fanta.jpg" alt="">
+                                <h2>oca-Cola 0,5 1L 1,5L 2L</h2>
+                                <h2>Narxi: 8.000</h2>
+                                <h2>Narxi: 17.000</h2>
+                                <h2>Narxi: 20.000</h2>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                            </div>
                         </div>
                     </div>
-                </div>
-            </div>
-        </div>
-    </div>
 
-    <script>
-        const foodButton = document.getElementById('food-button');
-        const drinkButton = document.getElementById('drink-button');
-        const foodMenu = document.getElementById('food-menu');
-        const drinkMenu = document.getElementById('drink-menu');
+                    <div id="salad-menu" class="hide">
+                        <div class="menu-grid">
+                            <div class="achchiqchuchuk">
+                                <img src="./images/achchiqchuchuk.jpg" alt="">
+                                <h2>Achchiq Chuchuk</h2>
+                                <h2>Narxi: 17.000</h2>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                            </div>
+                            <div class="svejiy">
+                                <img src="./images/svejiy.jpg" alt="">
+                                <h2>Svejiy Salat</h2>
+                                <h2>Narxi: 16.000</h2>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                            </div>
+                            <div class="mujskoy">
+                                <img src="./images/miujskoy kapriz.jpg" alt="">
+                                <h2>Mujskoy Kapriz</h2>
+                                <h2>Narxi: 35.000</h2>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                            </div>
+                            <div class="olive">
+                                <img src="./images/olive.jpg" alt="">
+                                <h2>Olive</h2>
+                                <h2>Narxi: 30.000</h2>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                            </div>
+                            <div class="baqlajon">
+                                <img src="./images/baqlajonsalat.jpg" alt="">
+                                <h2>Qirsildoq Baqlajon</h2>
+                                <h2>Narxi: 40.000</h2>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- EXTRAS MENU -->
+                    <div id="extra-menu" class="hide">
+                        <div class="menu-grid">
+                            <div class="klampir">
+                                <img src="./images/qalampir.jpg" alt="">
+                                <h2>Qalampir (Qo'shimcha)</h2>
+                                <h2>Narxi: 5.000</h2>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                            </div>
+                            <div class="Ketchup">
+                                <img src="./images/kechup.jpg" alt="">
+                                <h2>Ketchup (Qo'shimcha)</h2>
+                                <h2>Narxi: 7.000</h2>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                            </div>
+                            <div class="pez">
+                                <img src="./images/gorchitsa.jpg" alt="">
+                                <h2>Pez (Qo'shimcha)</h2>
+                                <h2>Narxi: 6.000</h2>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div id="dessert-menu" class="hide">
+                        <div class="menu-grid">
+                            <div class="tvarojniy">
+                                <img src="./images/tvorojniy.jpg" alt="">
+                                <h2>Tvarogli (Pishiriq)</h2>
+                                <h2>Narxi: 10.000</h2>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                            </div>
+                            <div class="mishka">
+                                <img src="./images/mishka.jpg" alt="">
+                                <h2>Tvarogli Ayiq (Pishiriq)</h2>
+                                <h2>Narxi: 11.000</h2>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                            </div>
+                            <div class="snikers">
+                                <img src="./images/sinikers.jpg" alt="">
+                                <h2>Snikers (Pishiriq)</h2>
+                                <h2>Narxi: 15.000</h2>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                            </div>
+                            <div class="napalion">
+                                <img src="./images/napalion.jpg" alt="">
+                                <h2>Napalion (Pishiriq)</h2>
+                                <h2>Narxi: 13.000</h2>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                            </div>
+                        </div>
+                    </div>
 
-        function toggleMenu(menuToShow, otherMenu) {
-            if (menuToShow.classList.contains('show')) {
-                menuToShow.classList.remove('show');
-                menuToShow.classList.add('hide');
-            } else {
-                otherMenu.classList.remove('show');
-                otherMenu.classList.add('hide');
-                menuToShow.classList.remove('hide');
-                menuToShow.classList.add('show');
-            }
-        }
+                    <footer class="site-footer">
+                        <div class="footer-content">
+                          <p>© 2025 | Сайт создан Dima091</p>
+                          <div class="footer-links">
+                            <a href="https://github.com/Dima091-creator" target="_blank">GitHub</a>
+                            <span>Завершено: 16.05.2025</span>
+                          </div>
+                        </div>
+                      </footer>
+                      
+                      
+                      
+                    
+                    <script>
+                        const foodButton = document.getElementById('food-button');
+                        const drinkButton = document.getElementById('drink-button');
+                        const saladButton = document.getElementById('salad-button');
+                        const extraButton = document.getElementById('extra-button');
+                      
+                        const foodMenu = document.getElementById('food-menu');
+                        const drinkMenu = document.getElementById('drink-menu');
+                        const saladMenu = document.getElementById('salad-menu');
+                        const extraMenu = document.getElementById('extra-menu');
+                        
+                        const dessertButton = document.getElementById('dessert-button');
+                        const dessertMenu = document.getElementById('dessert-menu');
 
-        foodButton.addEventListener('click', () => toggleMenu(foodMenu, drinkMenu));
-        drinkButton.addEventListener('click', () => toggleMenu(drinkMenu, foodMenu));
-    </script>
+                        function toggleMenu(menuToShow, ...otherMenus) {
+
+                          otherMenus.forEach(menu => {
+                            menu.classList.remove('show');
+                            menu.classList.add('hide');
+                          });
+
+                          if (menuToShow.classList.contains('show')) {
+                            menuToShow.classList.remove('show');
+                            menuToShow.classList.add('hide');
+                          } else {
+                            menuToShow.classList.remove('hide');
+                            menuToShow.classList.add('show');
+                          }
+                        }
+                        
+                        foodButton.addEventListener('click', () => toggleMenu(foodMenu, drinkMenu, saladMenu, extraMenu));
+                        drinkButton.addEventListener('click', () => toggleMenu(drinkMenu, foodMenu, saladMenu, extraMenu));
+                        saladButton.addEventListener('click', () => toggleMenu(saladMenu, foodMenu, drinkMenu, extraMenu));
+                        extraButton.addEventListener('click', () => toggleMenu(extraMenu, foodMenu, drinkMenu, saladMenu));
+                        dessertButton.addEventListener('click', () =>toggleMenu(dessertMenu, foodMenu, drinkMenu, saladMenu, extraMenu));
+                      </script>
+                      
+                    
+                    
+
 </body>
 </html>
